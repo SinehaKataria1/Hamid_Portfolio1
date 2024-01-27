@@ -1,0 +1,61 @@
+.hamidimg{
+    width: 450px;
+    height: 450px;
+    border: 0.5rem solid #1c0a3d;
+  
+    border-radius: 50%;
+    box-shadow: 0.2rem 0.2rem 5rem #1c0a3d;
+}
+.home{
+  background-image: url("https://apekshajadhav.vercel.app/assets/herobg-ecbfddc8.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+    
+  
+}
+
+/* Add your custom styles here */
+.bol {
+    width: 35px;
+
+    height: 64px;
+ 
+    border-radius: 9999px;
+ 
+    border-width: 4px;
+ 
+    border-color: #1c0a3d;
+ 
+    display: flex;
+  
+    justify-content: center;
+  
+    align-items: flex-start;
+ 
+    padding: 0.5rem;
+    
+  }
+  @keyframes moveUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(30px); /* Adjust the distance as needed */
+    }
+  }
+  
+  .bol1{
+    width: 0.75rem;
+  
+    height: 0.75rem;
+  
+    border-radius: 50%;
+    animation: moveUpDown 1s infinite alternate;
+    background-color: #a46104;
+  }
+  
+  * {
+    box-sizing: border-box;
+}

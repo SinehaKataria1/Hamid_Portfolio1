@@ -1,33 +1,58 @@
-import React from 'react'
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
-import Navigation from "./Navigation"
+import React from "react";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import Navigation from "./Navigation";
+import "./Home.css";
+import Homepic from "./hpic1.jpeg"
+import Hamid from "./About.jpeg"
 const Home = () => {
   return (
-    <div>
-          <Navigation/>
-        <div className="container-fluid bg-dark text-white">
-            <div className="row d-flex justify-content-center p-5">
-                <div className="col-lg-6 p-5">
-                        <h1 className='w-25' style={{fontSize:"45px"}}>Hi! I am
-                        Jacob Watson</h1> 
-                        <p className='fs-4'>As a marketing expert, I have a wealth of knowledge and experience in 
-                          developing and implementing marketing strategies to promote products, services, or brands.</p>    
-                        <button className='btn bg-danger'>Get Started</button>
-                        <button className='btn bg-white ms-3'>Contact Me</button>
-                        {/* <div>
-                          <img 
-                        src="https://rarathemesdemo.com/perfect-portfolio-pro-dark-3/wp-content/uploads/sites/193/2022/12/Vector-10-1-1.png" 
-                        alt="" /></div> */}
-                </div>
-                <div className="col-lg-6">
-                    <img 
-                    src="https://rarathemesdemo.com/perfect-portfolio-pro-dark-3/wp-content/uploads/sites/193/2022/12/banner-img-1.png
-                    " alt="" />
-                </div>
+    <div className=" h-100 home ">
+      <Navigation />
+      <div className="container-fluid p-5 h-100 ">
+        <div className="row ">
+          <div className="col-lg-6 d-flex justify-content-center align-items-center">
+            <div>
+              <h1 style={{ fontSize: "50px", fontWeight: 900, color: "white" }}>
+                Weaving
+                <span style={{ color: "#a46104" }}>stories</span> with <br />{" "}
+                <span style={{ color: "#a46104" }}>
+                  Digital <span>Experiences</span>
+                </span>
+              </h1>
+              <p style={{ fontSize: "20px", fontWeight: 900, color: "white" }}>
+                Welcome to the Techie side of{" "}
+                <span style={{ color: "#a46104" }}>Hamid Owaisi</span>
+              </p>
+              <div className="d-flex justify-content-evenly w-50 p-4">
+                <button className="btn " style={{ backgroundColor: "#a46104" }}>Get Started</button>
+                <button className="btn text-light" style={{backgroundColor:"#1c0a3d"}}>Contact Me</button>
+              </div>
             </div>
+          </div>
+          <div className="col-lg-6 d-flex justify-content-center">
+            <div>
+              <img
+        // src={Homepic}  
+        src="https://elito-next.netlify.app/images/slider/1.jpg"            
+        className="img-fluid hamidimg"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
+        <div className="w-100 d-flex justify-content-center">
+        <a href="#about">
+      <div className="bol " style={{ cursor: 'pointer' }}>
+        <div className="bol1" style={{ transform: 'translateY(4.80627px) translateZ(0px)' }}></div>
+      </div>
+    </a>
+        </div>
+      </div>
+      
+     
     </div>
-  )
-}
+    
+  );
+};
 
-export default Home
+export default Home;
