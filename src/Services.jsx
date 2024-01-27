@@ -30,12 +30,12 @@ const Services = () => {
       </div>
       <div className="container-fluid p-5 ">
       <ul className="nav nav-tabs">
-      <li className={`nav-item ${activeTab1 === 0 ? 'active' : ''}`}>
+      <li className={`nav-item  ${activeTab1 === 0 ? 'active' : ''} mb-2`} >
         <a className="nav-link" onClick={() => showsDiv(0)}>
           Management
         </a>
       </li>
-      <li className={`nav-item ${activeTab1 === 1 ? 'active' : ''}`}>
+      <li className={`nav-item ${activeTab1 === 1 ? 'active' : ''} mb-2`}>
         <a className="nav-link" onClick={() => showsDiv(1)}>
           Marketing
         </a>
@@ -51,16 +51,16 @@ const Services = () => {
           style={{ display: activeTab1 === 0 ? "block" : "none" }}
           className="container-fluid  mt-5"
         >
-          <div className=" row   align-items-center p-3">
+          <div className=" row   align-items-center justify-content-center ">
             <div className="col-lg-4 col-md-6 col-12  ">
-              <div className="Managementdiv1">
-                <div className="icon">
-                  <MiscellaneousServicesIcon style={{fontSize:"50px" }} className="icon1"/>
+              <div className="Managementdiv1  p-2">
+                <div className="icon ">
+                  <MiscellaneousServicesIcon sx={{fontSize:"50px"}} className="icon1 "/>
                 </div>
                 <div>
                   <h4>Project Management</h4>
                 </div>
-                <div>
+                <div className="">
                   <p className="text-center">
                     Explain to you how all this mistaken idea of denouncing
                     pleasure born and give you complete account the system.
@@ -69,7 +69,7 @@ const Services = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-12  ">
-              <div className="Managementdiv1">
+              <div className="Managementdiv1 p-2">
                 <div className="icon">
                   <CelebrationIcon style={{fontSize:"50px" }} className="icon1"/>
                 </div>
@@ -85,7 +85,7 @@ const Services = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-12 ">
-              <div className="Managementdiv1">
+              <div className="Managementdiv1 p-2">
                 <div className="icon">
                   <Diversity3Icon style={{fontSize:"50px" }} className="icon1"/>
                 </div>
@@ -103,9 +103,9 @@ const Services = () => {
           </div>
         </div>
         <div style={{ display: activeTab1 === 1 ? "block" : "none" }}  className="container-fluid  mt-5">
-        <div className=" row   align-items-center p-3">
+        <div className=" row   align-items-center  justify-content-center">
             <div className="col-lg-4 col-md-6 col-12  ">
-              <div className="Managementdiv1">
+              <div className="Managementdiv1 p-2">
                 <div className="icon">
                   <CampaignIcon style={{fontSize:"50px" }} className="icon1"/>
                 </div>
@@ -121,7 +121,7 @@ const Services = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-12  ">
-              <div className="Managementdiv1">
+              <div className="Managementdiv1 p-2">
                 <div className="icon">
                   <GamepadIcon style={{fontSize:"50px" }} className="icon1"/>
                 </div>
@@ -137,7 +137,7 @@ const Services = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-12 ">
-              <div className="Managementdiv1">
+              <div className="Managementdiv1 p-2">
                 <div className="icon">
                   <HiveIcon style={{fontSize:"50px" }} className="icon1"/>
                 </div>
@@ -155,9 +155,9 @@ const Services = () => {
           </div>
         </div>
         <div style={{ display: activeTab1 === 2 ? "block" : "none" }}  className="container-fluid  mt-5">
-        <div className=" row   align-items-center p-3">
+        <div className=" row   align-items-center justify-content-center">
             <div className="col-lg-4 col-md-6 col-12  ">
-              <div className="Managementdiv1">
+              <div className="Managementdiv1 p-2">
                 <div className="icon">
                   <DuoIcon style={{fontSize:"50px" }} className="icon1"/>
                 </div>
@@ -173,7 +173,7 @@ const Services = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-12  ">
-              <div className="Managementdiv1">
+              <div className="Managementdiv1 p-2">
                 <div className="icon">
                   <BrushIcon style={{fontSize:"50px" }} className="icon1"/>
                 </div>
@@ -189,7 +189,7 @@ const Services = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-12 ">
-              <div className="Managementdiv1">
+              <div className="Managementdiv1 p-2">
                 <div className="icon">
                   <PhotoCameraFrontIcon style={{fontSize:"50px" }} className="icon1"/>
                 </div>

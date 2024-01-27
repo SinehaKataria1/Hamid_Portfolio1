@@ -1,4 +1,4 @@
-.relative-card1 {
+/* .relative-card1 {
     position: relative;
     top:90px;
     background-color: #051425;
@@ -11,24 +11,6 @@
   height:450px;
  
 }
-  
-  .absolute-card1 {
-    position: absolute;
-    top: -30%;
-    left: 50%;
-    transform: translateX(-50%);
-    background-image: url("https://seeklogo.com/images/C/cybervein-cvt-logo-59EC1D1353-seeklogo.com.png");
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: 30%;
-    width: 100%;
-   
-    height: 100%;
-    z-index: 2;
-    transition: opacity 0.3s ease;
-  
-  }
-  
   .card-content1 {
     position: relative;
   }
@@ -53,260 +35,140 @@
   .relative-card1:hover .card-content1 {
     opacity: 0;
   }
-  .relative-card2 {
-    position: relative;
-    top:90px;
-    background-color: #ffb224;
-    color: #ffffff;
-    border-radius: 35px;
-   
-    height: 250px;
-  }
+ */
   
-  .absolute-card2 {
+  .absolute-card1 {
+    background-image: url("https://airdrops.io/wp-content/uploads/2018/06/cybervein-logo1.png");
     position: absolute;
-    top: -30%;
-    left: 50%;
-    transform: translateX(-50%);
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/800px-Bitcoin.svg.png");
+    top: 20%;
+    left: 40%;
+    background-color: rgb(255, 255, 255);
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 30%;
-    width: 100%;
-    
-    height: 100%;
-   
+    background-size: contain;
+    width: 70px;
+   border-radius: 50%;
+   height: 70px;
     z-index: 2;
     transition: opacity 0.3s ease;
   }
-  
-  .card-content2 {
-    position: relative;
+  .card-header1{
+    background-color: #060259;
   }
+  .headerimg {
+    position: relative;
+   width: 300px;
+   height: 100px;
   
-  .card-details2 {
+   
+  }
+  .headerimg img{
+   position: absolute;
+   left: 29%;
+   top: 29%;
+   
+  }
+  .card-body{
+    background-color: #ffffff;
+  }
+
+
+  .absolute-card2 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/800px-Bitcoin.svg.png");
     position: absolute;
-    bottom: 0;
-    opacity: 0;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 225px;
-    text-align: center;
-    opacity: 0;
+    top: 20%;
+    left: 40%;
+    background-color: rgb(255, 255, 255);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 70px;
+   border-radius: 50%;
+   height: 70px;
+    z-index: 2;
     transition: opacity 0.3s ease;
-    background-color: rgb(190, 166, 95);
   }
-  
-  .relative-card2:hover .card-details2 {
-    opacity: 1;
+  .card-header2{
+    background-color: #c15808;
   }
-  
-  .relative-card2:hover .card-content2 {
-    opacity: 0;
-  }
-  .relative-card3 {
-    position: relative;
-  
-    top:90px;
-    border-radius: 35px;
-    
-    background-color: #22331f;
-    color: #fff;
-    height: 250px;
-  }
+
   
   .absolute-card3 {
-    position: absolute;
-    top: -30%;
-    left: 50%;
-    transform: translateX(-50%);
     background-image: url("https://superstem.scholastic.com/content/dam/classroom-magazines/superstem/pages/earth-day/noun-earth-day-408576-COLOR.png");
+    position: absolute;
+    top: 20%;
+    left: 42%;
+   
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 30%;
-    width: 100%;
-    height: 100%;
+    background-size:cover;
+    background-color: #1f291e;
+    width: 70px;
+   border-radius: 50%;
+   height: 70px;
     z-index: 2;
     transition: opacity 0.3s ease;
   }
-  
-  .card-content3 {
-    position: relative;
-  }
-  
-  .card-details3 {
-    position: absolute;
-    bottom: 0;
-    opacity: 0;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 225px;
-    text-align: center;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    background-color: rgb(29, 40, 40);
-  }
-  
-  .relative-card3:hover .card-details3 {
-    opacity: 1;
-  }
-  
-  .relative-card3:hover .card-content3 {
-    opacity: 0;
-  }
-  .relative-card4 {
-    position: relative;
-    border-radius: 35px;
-    top:90px;
-    background-color: #e49c27;
-    color: #fff;
-    height: 250px;
+  .card-header3{
+    background-color: #3f7038;
   }
   
   .absolute-card4 {
-    position: absolute;
-    top: -30%;
-    left: 50%;
-    transform: translateX(-50%);
     background-image: url("https://png.pngtree.com/png-vector/20220519/ourmid/pngtree-sketch-of-marathon-runner-circling-asia-pacific-region-during-race-vector-png-image_24683990.png");
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    background-color: rgb(255, 255, 255);
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 30%;
-    width: 100%;
-    padding: 10px;
-    height: 100%;
+    background-size: contain;
+    width: 70px;
+   border-radius: 50%;
+   height: 70px;
     z-index: 2;
     transition: opacity 0.3s ease;
   }
-  
-  .card-content4 {
-    position: relative;
+  .card-header4{
+    background-color: #276780;
   }
-  
-  .card-details4 {
-    position: absolute;
-    bottom: 0;
-    opacity: 0;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 225px;
-    text-align: center;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    background-color: rgb(0, 179, 255);
-  }
-  
-  .relative-card4:hover .card-details4 {
-    opacity: 1;
-  }
-  
-  .relative-card4:hover .card-content4 {
-    opacity: 0;
-  }
-  .relative-card5{
-    position: relative;
-    border-radius: 35px;
-    top:90px;
-    background-color: #254059;
-    color: #fff;
-    height: 250px;
-  }
-  
   .absolute-card5 {
-    position: absolute;
-    top: -30%;
-    left: 50%;
-    transform: translateX(-50%);
     background-image: url("https://cryptologos.cc/logos/phantasma-soul-logo.png");
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    background-color: rgb(255, 255, 255);
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 30%;
-    width: 100%;
-    padding: 10px;
-    height: 100%;
+    background-size: contain;
+    width: 70px;
+   border-radius: 50%;
+   height: 70px;
     z-index: 2;
     transition: opacity 0.3s ease;
   }
-  
-  .card-content5{
-    position: relative;
+
+  .card-header5{
+    background-color: #6483a7;
   }
   
-  .card-details5 {
-    position: absolute;
-    bottom: 0;
-    opacity: 0;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 225px;
-    text-align: center;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    background-color: rgb(18, 60, 88);
-  }
-  
-  .relative-card5:hover .card-details5 {
-    opacity: 1;
-  }
-  
-  .relative-card5:hover .card-content5 {
-    opacity: 0;
-  }
-  .relative-card6{
-    position: relative;
-    border-radius: 35px;
-    top:90px;
-    background-color: #000;
-    color: #fff;
-    height: 250px;
-    margin-right: 10px;
-     /* Adjust the height as needed */
-  }
-  
+
   .absolute-card6 {
-    position: absolute;
-    top: -30%;
-    left: 50%;
-    transform: translateX(-50%);
     background-image: url("https://png.pngtree.com/png-clipart/20230812/original/pngtree-crypto-icon-technology-module-vector-picture-image_10469455.png");
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    background-color: rgb(10, 10, 10);
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 30%;
-    width: 100%;
-    padding: 10px;
-    height: 100%;
+    background-size: contain;
+    width: 70px;
+   border-radius: 50%;
+   height: 70px;
     z-index: 2;
     transition: opacity 0.3s ease;
   }
-  
-  .card-content6{
-    position: relative;
-  }
-  
-  .card-details6{
-    position: absolute;
-    bottom: 0;
-    opacity: 0;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 225px;
-    text-align: center;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    background-color: rgb(84, 86, 38);
-  }
-  
-  .relative-card6:hover .card-details6 {
-    opacity: 1;
-  }
-  
-  .relative-card6:hover .card-content6 {
-    opacity: 0;
+  .card-header6{
+    background-color: #000000;
   }
   .imagepro::before{
     position: absolute;
@@ -330,3 +192,4 @@
     position: relative;
   }
  
+  
