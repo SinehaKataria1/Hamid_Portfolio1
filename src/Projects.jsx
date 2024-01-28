@@ -130,10 +130,11 @@ const Projects = () => {
        <div className="card-header card-header5 ">
          <div className="headerimg">
            <img
-             src="https://d25thuhsbcr6yb.cloudfront.net/m/s/27722/27712371/a-0072.png"
+             src="https://d25thuhsbcr6yb.cloudfront.net/m/s/22360/22350525/a-0036.png"
              className=" img-fluid"
              alt=""
-             width="150px"
+             style={{left:"15%",top:"15%"}}
+             width="220px"
            />
          </div>
        </div>
@@ -154,10 +155,11 @@ const Projects = () => {
       <div className="card-header card-header6">
         <div className="headerimg">
           <img
-            src="https://d25thuhsbcr6yb.cloudfront.net/m/s/27722/27712371/a-0072.png"
+            src="https://d25thuhsbcr6yb.cloudfront.net/m/s/22360/22350525/a-0036.png"
             className=" img-fluid"
             alt=""
-            width="150px"
+            style={{left:"15%",top:"17%"}}
+            width="220px"
           />
         </div>
       </div>

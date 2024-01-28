@@ -28,7 +28,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="container-fluid p-5 ">
+      <div className="container-fluid pt-5 ">
       <ul className="nav nav-tabs">
       <li className={`nav-item  ${activeTab1 === 0 ? 'active' : ''} mb-2`} >
         <a className="nav-link" onClick={() => showsDiv(0)}>
@@ -49,11 +49,11 @@ const Services = () => {
 
         <div
           style={{ display: activeTab1 === 0 ? "block" : "none" }}
-          className="container-fluid  mt-5"
+          className="  mt-5"
         >
           <div className=" row   align-items-center justify-content-center ">
-            <div className="col-lg-4 col-md-6 col-12  ">
-              <div className="Managementdiv1  p-2">
+            <div className="col-lg-4 col-md-6 col-12 justify-content-center d-flex ">
+              <div className="Managementdiv1 p-3 ">
                 <div className="icon ">
                   <MiscellaneousServicesIcon sx={{fontSize:"50px"}} className="icon1 "/>
                 </div>
@@ -61,15 +61,15 @@ const Services = () => {
                   <h4>Project Management</h4>
                 </div>
                 <div className="">
-                  <p className="text-center">
+                  <p className="text-center pb-2">
                     Explain to you how all this mistaken idea of denouncing
                     pleasure born and give you complete account the system.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-12  ">
-              <div className="Managementdiv1 p-2">
+            <div className="col-lg-4 col-md-6 col-12  justify-content-center d-flex">
+              <div className="Managementdiv1  p-3">
                 <div className="icon">
                   <CelebrationIcon style={{fontSize:"50px" }} className="icon1"/>
                 </div>
@@ -77,15 +77,15 @@ const Services = () => {
                   <h4>Event Management</h4>
                 </div>
                 <div>
-                  <p className="text-center">
+                  <p className="text-center pb-2">
                     Explain to you how all this mistaken idea of denouncing
                     pleasure born and give you complete account the system.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-12 ">
-              <div className="Managementdiv1 p-2">
+            <div className="col-lg-4 col-md-6 col-12 justify-content-center d-flex">
+              <div className="Managementdiv1  p-3">
                 <div className="icon">
                   <Diversity3Icon style={{fontSize:"50px" }} className="icon1"/>
                 </div>
@@ -93,7 +93,7 @@ const Services = () => {
                   <h4>Community Management</h4>
                 </div>
                 <div>
-                  <p className="text-center">
+                  <p className="text-center pb-2">
                     Explain to you how all this mistaken idea of denouncing
                     pleasure born and give you complete account the system.
                   </p>
@@ -104,8 +104,8 @@ const Services = () => {
         </div>
         <div style={{ display: activeTab1 === 1 ? "block" : "none" }}  className="container-fluid  mt-5">
         <div className=" row   align-items-center  justify-content-center">
-            <div className="col-lg-4 col-md-6 col-12  ">
-              <div className="Managementdiv1 p-2">
+            <div className="col-lg-4 col-md-6 col-12 justify-content-center d-flex ">
+              <div className="Managementdiv1 p-3">
                 <div className="icon">
                   <CampaignIcon style={{fontSize:"50px" }} className="icon1"/>
                 </div>
@@ -113,15 +113,15 @@ const Services = () => {
                   <h4>Digital Marketing</h4>
                 </div>
                 <div>
-                  <p className="text-center">
+                  <p className="text-center pb-2">
                     Explain to you how all this mistaken idea of denouncing
                     pleasure born and give you complete account the system.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-12  ">
-              <div className="Managementdiv1 p-2">
+            <div className="col-lg-4 col-md-6 col-12  justify-content-center d-flex">
+              <div className="Managementdiv1 p-3">
                 <div className="icon">
                   <GamepadIcon style={{fontSize:"50px" }} className="icon1"/>
                 </div>
@@ -129,15 +129,15 @@ const Services = () => {
                   <h4>Market Stragety</h4>
                 </div>
                 <div>
-                  <p className="text-center">
+                  <p className="text-center pb-2">
                     Explain to you how all this mistaken idea of denouncing
                     pleasure born and give you complete account the system.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-12 ">
-              <div className="Managementdiv1 p-2">
+            <div className="col-lg-4 col-md-6 col-12 justify-content-center d-flex">
+              <div className="Managementdiv1 p-3">
                 <div className="icon">
                   <HiveIcon style={{fontSize:"50px" }} className="icon1"/>
                 </div>
@@ -145,7 +145,7 @@ const Services = () => {
                   <h4>Community Building</h4>
                 </div>
                 <div>
-                  <p className="text-center">
+                  <p className="text-center pb-2">
                     Explain to you how all this mistaken idea of denouncing
                     pleasure born and give you complete account the system.
                   </p>
@@ -156,8 +156,8 @@ const Services = () => {
         </div>
         <div style={{ display: activeTab1 === 2 ? "block" : "none" }}  className="container-fluid  mt-5">
         <div className=" row   align-items-center justify-content-center">
-            <div className="col-lg-4 col-md-6 col-12  ">
-              <div className="Managementdiv1 p-2">
+            <div className="col-lg-4 col-md-6 col-12  justify-content-center d-flex">
+              <div className="Managementdiv1 p-3">
                 <div className="icon">
                   <DuoIcon style={{fontSize:"50px" }} className="icon1"/>
                 </div>
@@ -165,15 +165,15 @@ const Services = () => {
                   <h4>Video Editing </h4>
                 </div>
                 <div>
-                  <p className="text-center">
+                  <p className="text-center pb-2">
                     Explain to you how all this mistaken idea of denouncing
                     pleasure born and give you complete account the system.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-12  ">
-              <div className="Managementdiv1 p-2">
+            <div className="col-lg-4 col-md-6 col-12  justify-content-center d-flex">
+              <div className="Managementdiv1 p-3">
                 <div className="icon">
                   <BrushIcon style={{fontSize:"50px" }} className="icon1"/>
                 </div>
@@ -181,15 +181,15 @@ const Services = () => {
                   <h4>Graphic Design</h4>
                 </div>
                 <div>
-                  <p className="text-center">
+                  <p className="text-center pb-2">
                     Explain to you how all this mistaken idea of denouncing
                     pleasure born and give you complete account the system.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-12 ">
-              <div className="Managementdiv1 p-2">
+            <div className="col-lg-4 col-md-6 col-12 justify-content-center d-flex">
+              <div className="Managementdiv1 p-3">
                 <div className="icon">
                   <PhotoCameraFrontIcon style={{fontSize:"50px" }} className="icon1"/>
                 </div>
@@ -197,7 +197,7 @@ const Services = () => {
                   <h4>Photography</h4>
                 </div>
                 <div>
-                  <p className="text-center">
+                  <p className="text-center pb-2">
                     Explain to you how all this mistaken idea of denouncing
                     pleasure born and give you complete account the system.
                   </p>

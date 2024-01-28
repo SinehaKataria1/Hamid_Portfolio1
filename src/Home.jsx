@@ -2,15 +2,15 @@ import React from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Navigation from "./Navigation";
 import "./Home.css";
-import Homepic from "./hpic1.jpeg"
-import Hamid from "./About.jpeg"
+import Homepic from "./hpic1.jpeg";
+import Hamid from "./About.jpeg";
 const Home = () => {
   return (
-    <div className=" h-100 home ">
+    <div className="  home  ">
       <Navigation />
-      <div className="container-fluid p-5 h-100 ">
+      <div className="container-fluid p-5   h-100 ">
         <div className="row ">
-          <div className="col-lg-6 d-flex justify-content-center align-items-center">
+          <div className="col-lg-12 d-flex justify-content-start align-items-center p-5">
             <div>
               <h1 style={{ fontSize: "50px", fontWeight: 900, color: "white" }}>
                 Weaving
@@ -24,34 +24,32 @@ const Home = () => {
                 <span style={{ color: "#a46104" }}>Hamid Owaisi</span>
               </p>
               <div className="d-flex justify-content-evenly w-50 p-4">
-                <button className="btn " style={{ backgroundColor: "#a46104" }}>Get Started</button>
-                <button className="btn text-light" style={{backgroundColor:"#1c0a3d"}}>Contact Me</button>
+                <button className="btn " style={{ backgroundColor: "#a46104" }}>
+                  Get Started
+                </button>
+                <button
+                  className="btn text-light"
+                  style={{ backgroundColor: "#1c0a3d" }}
+                >
+                  Contact Me
+                </button>
               </div>
             </div>
           </div>
-          <div className="col-lg-6 d-flex justify-content-center">
-            <div>
-              <img
-        // src={Homepic}  
-        src="https://elito-next.netlify.app/images/slider/1.jpg"            
-        className="img-fluid hamidimg"
-                alt=""
-              />
+         
+        </div>
+        <div className="w-100 d-flex justify-content-center mt-5">
+          <a href="#about">
+            <div className="bol " style={{ cursor: "pointer" }}>
+              <div
+                className="bol1"
+                style={{ transform: "translateY(4.80627px) translateZ(0px)" }}
+              ></div>
             </div>
-          </div>
-        </div>
-        <div className="w-100 d-flex justify-content-center">
-        <a href="#about">
-      <div className="bol " style={{ cursor: 'pointer' }}>
-        <div className="bol1" style={{ transform: 'translateY(4.80627px) translateZ(0px)' }}></div>
-      </div>
-    </a>
+          </a>
         </div>
       </div>
-      
-     
     </div>
-    
   );
 };
 
