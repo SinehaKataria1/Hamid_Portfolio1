@@ -13,7 +13,7 @@ const Experience = () => {
     setExpanded((prevExpanded) => !prevExpanded);
   };
   return (
-    <div className="container-fluid mb-5">
+    <div className="container-fluid " style={{backgroundColor:"rgba(5, 8, 22)"}}>
       <div className="row p-5">
         <div className="col-lg-6">
           <img src="https://www.yourgold.cz/_nuxt/Strefapartnera1.5d857f95.png" />

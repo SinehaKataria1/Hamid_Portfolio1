@@ -2,7 +2,7 @@
     text-align: center;
     box-shadow: 0 16px 9.8px 9.2px rgba(18,17,39,.18);
     margin-top: -100px;
-    background: #fffdfd;
+    background: #fbfbfb;
 
  margin-bottom: 20px;
 }   
@@ -22,8 +22,9 @@
   }
 }
 .About{
-    margin-top: 140px;
-    background: #111121c0;
+    margin-top: 50px;
+    background-color:rgba(5, 8, 22) ;
+ 
 }
 /* Your global styles or styles for other components */
 

@@ -8,7 +8,7 @@ const About = () => {
     setActiveTab(tabNumber);
   };
   return (
-    <div className="container-fluid  mb-5 About text-white">
+    <div className="container-fluid   About text-white">
       <div className="row ">
         <div className="col-lg-6 d-flex justify-content-center">
           <div className="about-s2-img  ms-5 p-lg-5 p-md-4 p-sm-3 ">

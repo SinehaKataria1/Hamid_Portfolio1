@@ -178,7 +178,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="container-fluid mt-5 text-white mb-5">
+    <div className="container-fluid  text-white mb-5" style={{backgroundColor:"rgba(5, 8, 22)"}}>
       <div className="row mb-5">
         <div className="col-lg-12 ps-5" style={{ marginTop: "80px" }}>
           <h1

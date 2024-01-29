@@ -16,7 +16,7 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 const drawerWidth = 240;
-const navItems = ["Home", "About", "Services", "Projects", "Contact"];
+const navItems = ["Home", "About", "Services","Experience", "Projects", "Contact"];
 
 function Navigation(props) {
   const { window } = props;
@@ -50,7 +50,8 @@ function Navigation(props) {
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
-      <AppBar component="nav" sx={{ backgroundColor: "rgba(5, 8, 22, 0.75)"  }}>
+      {/* <AppBar component="nav" sx={{ backgroundColor: "rgba(5, 8, 22, 0.75)"  }}> */}
+      <AppBar component="nav" sx={{ backgroundColor: "transparent"  }}>
         <Toolbar
           sx={{
             display: "flex",
@@ -67,12 +68,12 @@ function Navigation(props) {
               <div>
                 {" "}
                 <img
-                  src="https://apekshajadhav.vercel.app/assets/logoAnimated-0dd40602.gif"
-                  width="45"
+                  src="https://ksr-ugc.imgix.net/assets/009/396/269/4142aff4c50af167caada9c40faadfa7_original.png?ixlib=rb-4.1.0&w=338&h=338&fit=crop&v=1463487975&auto=format&frame=1&q=92&s=7c2f852e38901e676cdba88fc956c5b2"
+                  width="60"
                 />{" "}
               </div>
               <div>
-                <span>Hamid Owaisi</span>{" "}
+                <span>amid Owaisi</span>{" "}
               </div>
             </div>
           </Typography>

@@ -8,7 +8,7 @@ import Experience from './Experience';
 
 function App() {
   return (
-    <div className="App" style={{  backgroundColor: "rgba(5, 8, 22)"}}>
+    <div className="App" style={{backgroundColor:"rgba(5, 8, 22)"}}>
       <Home/>
       <About/>
       <Services/>
@@ -17,5 +17,5 @@ function App() {
     </div>
   );
 }
-
+// style={{  backgroundColor: "rgba(5, 8, 22)"}}
 export default App;

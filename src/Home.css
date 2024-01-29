@@ -6,18 +6,27 @@
     border-radius: 50%;
     box-shadow: 0.2rem 0.2rem 5rem #1c0a3d;
 }
-.home{
-  background-image: url("https://apekshajadhav.vercel.app/assets/herobg-ecbfddc8.png");
-  /* background-image: url("https://i.pinimg.com/originals/fb/34/a4/fb34a49a20018aab63f73edbd5715cca.gif"); */
-  background-position: top;
+.home {
+  background-image: url(h3.jpg);
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
- height: 700px;
-    
-  
+  background-size: cover; /* Make the background image responsive */
+  min-height: 100vh; /* Set a minimum height for smaller devices */
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-/* Add your custom styles here */
+/* Add media query for small devices to adjust the height */
+@media (max-width: 200px) {
+  .home {
+    height: auto; /* Auto height for smaller devices */
+  
+  }
+}
+
 .bol {
     width: 35px;
 
@@ -27,7 +36,7 @@
  
     border-width: 4px;
  
-    border-color: #1c0a3d;
+    border-color: #ffffff;
  
     display: flex;
   
@@ -54,7 +63,7 @@
   
     border-radius: 50%;
     animation: moveUpDown 1s infinite alternate;
-    background-color: #a46104;
+    background-color: #a40471;
   }
   
   * {
@@ -73,4 +82,10 @@
   top: -80px;
   left: -40px;
 
+}
+.words{
+  background: linear-gradient(to right, #8e44ad, #e74c3c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
