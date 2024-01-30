@@ -34,7 +34,7 @@
     padding: 10px 20px;
     font-size: 16px;
     color: #fff;
-    background-color: #fe3e57;
+    background: linear-gradient(to right, #8e44ad, #e74c3c);;
     border: none;
     cursor: pointer;
     overflow: hidden;

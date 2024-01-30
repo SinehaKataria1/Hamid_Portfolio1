@@ -10,8 +10,8 @@ const About = () => {
   return (
     <div className="container-fluid   About text-white">
       <div className="row ">
-        <div className="col-lg-6 d-flex justify-content-center">
-          <div className="about-s2-img  ms-5 p-lg-5 p-md-4 p-sm-3 ">
+        <div className="col-lg-6 d-flex justify-content-center align-items-center">
+          <div className="about-s2-img  ms-lg-5 p-lg-5 p-md-4 p-sm-3 ">
             <img
               src={Hamid}
               // src="https://elito-next.netlify.app/images/slider/1.jpg"
@@ -23,13 +23,15 @@ const About = () => {
           </div>
         </div>
         <div className="col-lg-6 p-5 ">
-          <h1 className="text-white mt-5 " style={{ fontSize: "65px" }}>
+          <h1 className="text-white mb-5 " style={{ fontSize: "65px" }}>
             About Me
           </h1>
-          <p className="text-white mt-1 w-75" style={{ fontSize: "20px" }}>
+          <p className="text-white mt-1 w-100" style={{ fontSize: "20px" }}>
             My name is Hamid Owaisi. I am a web designer and developer.Lorem
             ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
             tempo incididunt ut labore et dolore magna aliquaorem ipsum dolor sit amet, consectetu
+            r adipiscing elit, sed do eiusmod tempo incididunt ut labore et dolore magna aliqua
+            et dolore magna aliquaorem ipsum dolor sit amet, consectetu
             r adipiscing elit, sed do eiusmod tempo incididunt ut labore et dolore magna aliqua
           </p>
           <button className='text-white aboutbtn mt-3'>More About</button>

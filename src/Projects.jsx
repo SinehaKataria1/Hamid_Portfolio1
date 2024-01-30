@@ -165,7 +165,7 @@ const Projects = () => {
       </div>
       <div className="card-body">
         <div className="absolute-card6 "></div>
-        <h5 className="text-center mt-2">CVtnnn</h5>
+        <h5 className="text-center mt-2">Ferrum</h5>
         <p className="text-center ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
           quos voluptatem est iste sequi alias corrupti incidunt quis
@@ -175,6 +175,81 @@ const Projects = () => {
       </div>
     </div>
   </div>,
+   <div className="d-flex justify-content-center">
+   <div className="card  mt-5 " style={{ width: "350px" }}>
+     <div className="card-header card-header7">
+       <div className="headerimg">
+         <img
+           src="https://d25thuhsbcr6yb.cloudfront.net/m/s/22360/22350525/a-0036.png"
+           className=" img-fluid"
+           alt=""
+           style={{left:"15%",top:"17%"}}
+           width="220px"
+         />
+       </div>
+     </div>
+     <div className="card-body">
+       <div className="absolute-card7 "></div>
+       <h5 className="text-center mt-2">CommEx</h5>
+       <p className="text-center ">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+         quos voluptatem est iste sequi alias corrupti incidunt quis
+         architecto officia ab sapiente error, hic autem ut! Aperiam
+         consectetur corporis suscipit.
+       </p>
+     </div>
+   </div>
+ </div>
+ ,
+ <div className="d-flex justify-content-center">
+ <div className="card  mt-5 " style={{ width: "350px" }}>
+   <div className="card-header card-header8">
+     <div className="headerimg">
+       <img
+         src="https://d25thuhsbcr6yb.cloudfront.net/m/s/22360/22350525/a-0036.png"
+         className=" img-fluid"
+         alt=""
+         style={{left:"15%",top:"17%"}}
+         width="220px"
+       />
+     </div>
+   </div>
+   <div className="card-body">
+     <div className="absolute-card8 "></div>
+     <h5 className="text-center mt-2">Vara Network </h5>
+     <p className="text-center ">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+       quos voluptatem est iste sequi alias corrupti incidunt quis
+       architecto officia ab sapiente error, hic autem ut! Aperiam
+       consectetur corporis suscipit.
+     </p>
+   </div>
+ </div>
+</div>, <div className="d-flex justify-content-center">
+    <div className="card  mt-5 " style={{ width: "350px" }}>
+      <div className="card-header card-header9">
+        <div className="headerimg">
+          <img
+            src="https://d25thuhsbcr6yb.cloudfront.net/m/s/22360/22350525/a-0036.png"
+            className=" img-fluid"
+            alt=""
+            style={{left:"15%",top:"17%"}}
+            width="220px"
+          />
+        </div>
+      </div>
+      <div className="card-body">
+        <div className="absolute-card9 "></div>
+        <h5 className="text-center mt-2">OrdiSwap</h5>
+        <p className="text-center ">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+          quos voluptatem est iste sequi alias corrupti incidunt quis
+          architecto officia ab sapiente error, hic autem ut! Aperiam
+          consectetur corporis suscipit.
+        </p>
+      </div>
+    </div>
+  </div>
   ];
 
   return (

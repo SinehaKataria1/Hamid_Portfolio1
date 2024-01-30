@@ -73,7 +73,7 @@ function Navigation(props) {
                 />{" "}
               </div>
               <div>
-                <span>amid Owaisi</span>{" "}
+                <span>amid</span>{" "}
               </div>
             </div>
           </Typography>

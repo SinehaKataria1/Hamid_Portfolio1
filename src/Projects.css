@@ -170,6 +170,60 @@
   .card-header6{
     background-color: #000000;
   }
+  .absolute-card7 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Logo_comex.png/640px-Logo_comex.png");
+    position: absolute;
+    top: 25%;
+    left: 39%;
+    background-color: rgb(255, 255, 255);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 85px;
+   /* border-radius: 50%; */
+   height: 30px;
+    z-index: 2;
+    transition: opacity 0.3s ease;
+  }
+  .card-header7{
+    background-color: #2796dc;
+  }
+  .absolute-card8 {
+    background-image: url("https://varatechnology.com/wp-content/uploads/2022/11/Vara-Logo.png");
+    position: absolute;
+    top: 17%;
+    left: 39%;
+    background-color: rgb(255, 255, 255);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 70px;
+   border-radius: 50%;
+   height: 70px;
+    z-index: 2;
+    transition: opacity 0.3s ease;
+  }
+  .card-header8{
+    background-color: #233e65;
+  }
+  .absolute-card9{
+    background-image: url("https://png.pngtree.com/png-vector/20220622/ourmid/pngtree-bitcoin-and-dollar-currency-exchange-color-icon-png-image_5283073.png");
+    position: absolute;
+    top: 17%;
+    left: 39%;
+   
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 70px;
+   /* border-radius: 50%; */
+   height: 70px;
+    z-index: 2;
+    transition: opacity 0.3s ease;
+  }
+  .card-header9{
+    background-color: #bc8e1b;
+  }
   .imagepro::before{
     position: absolute;
     left: 87%;

@@ -1,0 +1,14 @@
+.submit-btn {
+    background: linear-gradient(to right, #8e44ad, #e74c3c);
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 14px 48px;
+    transition: .3s ease-in-out;
+}
+
+.submit-btn:hover {
+    background: linear-gradient(to right, #8e44ad, #e74c3c);
+    color: white;  /* Set text color to white on hover */
+}

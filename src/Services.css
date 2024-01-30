@@ -15,7 +15,8 @@
 .nav-tabs .nav-item.active .nav-link {
     background: none;
     border: 2px solid #373737;
-    color: #ffaa00;
+    background: linear-gradient(to right, #8e44ad, #e74c3c);
+    color: white;
 }
 
 .nav-tabs .nav-item .nav-link {
@@ -35,7 +36,8 @@
 }
 
 .Managementdiv1{
-    background: #232221;
+    /* background: #232221; */
+    background: black;
     border: 2px solid #373737;
     border-radius: 12px;
     text-align: center;
@@ -49,7 +51,7 @@
    display: flex ;
    justify-content: center;
    align-items: center;
-    background: #373737;
+    background: linear-gradient(to right, #8e44ad, #e74c3c);;
     margin: 0 auto 30px;
     border-radius: 50%;
     transition: all .3s;
@@ -63,6 +65,6 @@
 }
 .icon1{
     font-size: 50px;
-    color: #ffaa00;
+    color: white;
     
 }
