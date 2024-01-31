@@ -6,7 +6,6 @@ import Services from './Services';
 import Projects from './Projects';
 import Experience from './Experience';
 import Contact from './Contact';
-import TryMui from "./Sk"
 function App() {
   return (
     <div className="App" style={{backgroundColor:"rgba(5, 8, 22)"}}>

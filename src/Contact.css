@@ -1,14 +1,55 @@
-.submit-btn {
-    background: linear-gradient(to right, #8e44ad, #e74c3c);
-    border-radius: 10px;
-    color: white;
-    font-size: 18px;
-    font-weight: 700;
-    padding: 14px 48px;
-    transition: .3s ease-in-out;
-}
 
-.submit-btn:hover {
-    background: linear-gradient(to right, #8e44ad, #e74c3c);
-    color: white;  /* Set text color to white on hover */
-}
+  .submit-btn {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background: linear-gradient(to right, #8e44ad, #e74c3c);;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn::before {
+    content: '';
+    position: absolute;
+    top: -100%;
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    background-color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s ease, top 0.3s ease, bottom 0.3s ease;
+    z-index: 1;
+  }
+  
+.submit-btn:hover::before {
+    opacity: 0.2;
+    top: 0;
+  bottom: 0;
+  }
+  .submit-btn:hover {
+    background-color: #fe3e57; /* Optionally change background color on hover */
+  }
+  .foot{
+    background-color: #090a26;
+    color: #ffffff;
+  }
+  .s-icons{
+    color: #fff;
+  }
+  .icons-nav{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(19, 19, 50);
+  }
+  .icons-nav:hover .s-icons{
+    color: rgb(19, 19, 50);
+   
+  }
+  .icons-nav:hover{
+    background-color: #fff;
+  }
