@@ -6,6 +6,7 @@ import Services from './Services';
 import Projects from './Projects';
 import Experience from './Experience';
 import Contact from './Contact';
+
 function App() {
   return (
     <div className="App" style={{backgroundColor:"rgba(5, 8, 22)"}}>
@@ -15,6 +16,7 @@ function App() {
       <Experience/>
       <Projects/>
       <Contact/>
+      
      
     </div>
   );
