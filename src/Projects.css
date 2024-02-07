@@ -68,6 +68,18 @@
    top: 29%;
    
   }
+  @media screen and (max-width:350px) {
+    .headerimg{
+      width: 200px;
+      height: 100px;
+     
+    }
+    .headerimg img{
+      left: 25%;
+     
+      top: 25%;
+    }
+  }
   .card-body{
     background-color: #ffffff;
   }
@@ -157,7 +169,7 @@
     position: absolute;
     top: 17%;
     left: 39%;
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(251, 251, 251);
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
@@ -171,28 +183,29 @@
     background-color: #000000;
   }
   .absolute-card7 {
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Logo_comex.png/640px-Logo_comex.png");
+    background-image: url("https://play-lh.googleusercontent.com/oo7K4vHnjW93TvIlyyXZCU-7cYTrl6t5trkr1KRPHSX4fdRAI4y8xZDmCucGoA5jA3Y");
     position: absolute;
-    top: 25%;
+    top: 17%;
     left: 39%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(93, 113, 169);
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 85px;
-   /* border-radius: 50%; */
-   height: 30px;
+    width: 80px;
+ 
+   border-radius: 50%;
+   height: 80px;
     z-index: 2;
     transition: opacity 0.3s ease;
   }
   .card-header7{
-    background-color: #2796dc;
+    background-color: #0a0a30;
   }
   .absolute-card8 {
     background-image: url("https://varatechnology.com/wp-content/uploads/2022/11/Vara-Logo.png");
     position: absolute;
     top: 17%;
-    left: 39%;
+    left: 41%;
     background-color: rgb(255, 255, 255);
     background-position: top;
     background-repeat: no-repeat;
@@ -210,14 +223,14 @@
     background-image: url("https://png.pngtree.com/png-vector/20220622/ourmid/pngtree-bitcoin-and-dollar-currency-exchange-color-icon-png-image_5283073.png");
     position: absolute;
     top: 17%;
-    left: 39%;
-    
+    left: 41%;
+    background-color: #171819;
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
     width: 70px;
-   /* border-radius: 50%; */
-   height: 70px;
+    border-radius: 50%;
+    height: 70px;
     z-index: 2;
     transition: opacity 0.3s ease;
   }
@@ -245,5 +258,16 @@
   
     position: relative;
   }
+
  
-  
+  .slide-in-left {
+    animation: slide-in-left 0.5s ease-in-out;
+  }
+  @keyframes slide-in-left {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }

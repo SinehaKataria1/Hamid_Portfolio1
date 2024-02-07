@@ -15,6 +15,8 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+import "./Navigation.css"
+import { Link , Route , Switch , BrowserRouter} from 'react-router-dom';
 const drawerWidth = 240;
 const navItems = ["Home", "About", "Services","Experience", "Projects", "Contact"];
 
@@ -28,15 +30,27 @@ function Navigation(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-      <Typography variant="h6" sx={{ my: 2 }}>
-        Hamid Owaisi
-      </Typography>
+     <Typography
+            variant="h6"
+            component="div"
+            sx={{ fontFamily: "'WindSong',cursive" }}
+          >
+            <div className="d-flex justify-content-center align-items-center" style={{borderBottom:"2px dashed white"}}>
+             
+              <div>
+                <span >DashBoard</span>{" "}
+              </div>
+            </div>
+          </Typography>
       <Divider />
       <List>
         {navItems.map((item) => (
           <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: "center" }}>
-              <ListItemText primary={item} />
+            <ListItemButton sx={{ textAlign: "center" }} className="navBtn" component={Link} to={`/${item.toLowerCase()}`} >
+             
+                <ListItemText primary={item}  />
+                <span className="bottomLine"></span>
+             
             </ListItemButton>
           </ListItem>
         ))}
@@ -50,8 +64,8 @@ function Navigation(props) {
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
-      {/* <AppBar component="nav" sx={{ backgroundColor: "rgba(5, 8, 22, 0.75)"  }}> */}
-      <AppBar component="nav" sx={{ backgroundColor: "transparent"  }}>
+      {/* <AppBar component="nav" sx={{ backgroundColor: "rgba(2, 1, 2, 0.75)"  }}> */}
+      <AppBar component="nav" sx={{ backgroundColor: "transparent" , borderBottom:"2px solid white" }}>
         <Toolbar
           sx={{
             display: "flex",
@@ -62,7 +76,7 @@ function Navigation(props) {
           <Typography
             variant="h6"
             component="div"
-            sx={{ fontFamily: "'WindSong',cursive" , padding:"20px"  }}
+            sx={{ fontFamily: "'WindSong',cursive" , padding:"25px"  }}
           >
             <div className="d-flex justify-content-between align-items-center">
               <div>
@@ -88,8 +102,9 @@ function Navigation(props) {
           </IconButton>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item) => (
-              <Button key={item} sx={{ color: "#fff" }}>
+              <Button key={item} sx={{ color: "#fff" }} className="navBtn" component={Link} to={`/${item.toLowerCase()}`}>
                 {item}
+                <span className="bottomLine"></span>
               </Button>
             ))}
           </Box>
@@ -109,6 +124,7 @@ function Navigation(props) {
             "& .MuiDrawer-paper": {
               boxSizing: "border-box",
               width: drawerWidth,
+              background:"rgba(5, 8, 22)",color:"white"
             },
           }}
         >

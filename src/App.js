@@ -6,16 +6,15 @@ import Services from './Services';
 import Projects from './Projects';
 import Experience from './Experience';
 import Contact from './Contact';
-
+import Routing from './Routing';
+import { Link , Route , Switch , BrowserRouter} from 'react-router-dom';
 function App() {
   return (
-    <div className="App" style={{backgroundColor:"rgba(5, 8, 22)"}}>
-      <Home/>
-      <About/>
-      <Services/>
-      <Experience/>
-      <Projects/>
-      <Contact/>
+    <div className="App" >
+   <BrowserRouter>
+      <Routing/>
+    </BrowserRouter>
+      
       
      
     </div>

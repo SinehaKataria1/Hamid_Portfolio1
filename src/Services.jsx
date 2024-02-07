@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Services.css";
+import { Zoom } from "react-reveal";
 import MiscellaneousServicesIcon from "@mui/icons-material/MiscellaneousServices";
 import CelebrationIcon from '@mui/icons-material/Celebration';
 import Diversity3Icon from '@mui/icons-material/Diversity3';
@@ -9,6 +10,7 @@ import HiveIcon from '@mui/icons-material/Hive';
 import DuoIcon from '@mui/icons-material/Duo';
 import BrushIcon from '@mui/icons-material/Brush';
 import PhotoCameraFrontIcon from '@mui/icons-material/PhotoCameraFront';
+import { Bounce } from "react-reveal";
 const Services = () => {
   const [activeTab1, setActiveTab1] = useState(0);
 
@@ -16,7 +18,7 @@ const Services = () => {
     setActiveTab1(tabNumber1);
   };
   return (
-    <div className="container-fluid  text-white p-5" style={{backgroundColor:"rgba(5, 8, 22)"}}>
+    <div className="container-fluid  text-white p-5" style={{backgroundColor:"rgba(5, 8, 22)"}} id="services">
       <div className="row">
         <div className="col-lg-12 text-center ">
           <h1>My Awesome Service</h1>
@@ -52,7 +54,9 @@ const Services = () => {
           className="  mt-5"
         >
           <div className=" row   align-items-center justify-content-center ">
+          <Bounce left >
             <div className="col-lg-4 col-md-6 col-12 justify-content-center d-flex ">
+         
               <div className="Managementdiv1 p-3 ">
                 <div className="icon ">
                   <MiscellaneousServicesIcon sx={{fontSize:"50px"}} className="icon1 "/>
@@ -67,7 +71,10 @@ const Services = () => {
                   </p>
                 </div>
               </div>
+           
             </div>
+            </Bounce>
+            <Bounce right>
             <div className="col-lg-4 col-md-6 col-12  justify-content-center d-flex">
               <div className="Managementdiv1  p-3">
                 <div className="icon">
@@ -84,6 +91,8 @@ const Services = () => {
                 </div>
               </div>
             </div>
+            </Bounce>
+            <Bounce bottom>
             <div className="col-lg-4 col-md-6 col-12 justify-content-center d-flex">
               <div className="Managementdiv1  p-3">
                 <div className="icon">
@@ -100,10 +109,12 @@ const Services = () => {
                 </div>
               </div>
             </div>
+            </Bounce>
           </div>
         </div>
         <div style={{ display: activeTab1 === 1 ? "block" : "none" }}  className="container-fluid  mt-5">
         <div className=" row   align-items-center  justify-content-center">
+        <Bounce top>
             <div className="col-lg-4 col-md-6 col-12 justify-content-center d-flex ">
               <div className="Managementdiv1 p-3">
                 <div className="icon">
@@ -120,6 +131,8 @@ const Services = () => {
                 </div>
               </div>
             </div>
+            </Bounce>
+            <Bounce left>
             <div className="col-lg-4 col-md-6 col-12  justify-content-center d-flex">
               <div className="Managementdiv1 p-3">
                 <div className="icon">
@@ -136,6 +149,8 @@ const Services = () => {
                 </div>
               </div>
             </div>
+            </Bounce>
+            <Bounce right >
             <div className="col-lg-4 col-md-6 col-12 justify-content-center d-flex">
               <div className="Managementdiv1 p-3">
                 <div className="icon">
@@ -152,10 +167,12 @@ const Services = () => {
                 </div>
               </div>
             </div>
+            </Bounce>
           </div>
         </div>
         <div style={{ display: activeTab1 === 2 ? "block" : "none" }}  className="container-fluid  mt-5">
         <div className=" row   align-items-center justify-content-center">
+        <Bounce left>
             <div className="col-lg-4 col-md-6 col-12  justify-content-center d-flex">
               <div className="Managementdiv1 p-3">
                 <div className="icon">
@@ -172,6 +189,8 @@ const Services = () => {
                 </div>
               </div>
             </div>
+            </Bounce>
+            <Bounce right>
             <div className="col-lg-4 col-md-6 col-12  justify-content-center d-flex">
               <div className="Managementdiv1 p-3">
                 <div className="icon">
@@ -188,6 +207,8 @@ const Services = () => {
                 </div>
               </div>
             </div>
+            </Bounce>
+            <Bounce bottom>
             <div className="col-lg-4 col-md-6 col-12 justify-content-center d-flex">
               <div className="Managementdiv1 p-3">
                 <div className="icon">
@@ -204,6 +225,7 @@ const Services = () => {
                 </div>
               </div>
             </div>
+            </Bounce>
           </div>
         </div>
       </div>

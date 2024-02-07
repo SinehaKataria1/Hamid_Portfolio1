@@ -2,7 +2,8 @@ import React from "react";
 import "./Projects.css";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-
+import { Reveal } from 'react-reveal';
+import { Bounce } from "react-reveal";
 const Projects = () => {
   const responsive = {
     0: { items: 1 },
@@ -28,13 +29,14 @@ const Projects = () => {
     //   </div>
     // </div>
     //   </div>
-    <div className="d-flex justify-content-center">
+    <Reveal effect="slide-in-left">
+             <div className="d-flex justify-content-center">
       <div className="card  mt-5 " style={{ width: "350px" }}>
         <div className="card-header card-header1">
           <div className="headerimg">
             <img
               src="https://d25thuhsbcr6yb.cloudfront.net/m/s/27722/27712371/a-0072.png"
-              className=" img-fluid"
+              className=" img-fluid "
               alt=""
               width="150px"
             />
@@ -42,7 +44,7 @@ const Projects = () => {
         </div>
         <div className="card-body">
           <div className="absolute-card1 "></div>
-          <h5 className="text-center mt-2">CVtnnn</h5>
+          <h5 className="text-center mt-2">CVT Official Group</h5>
           <p className="text-center ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
             quos voluptatem est iste sequi alias corrupti incidunt quis
@@ -51,7 +53,10 @@ const Projects = () => {
           </p>
         </div>
       </div>
-    </div>,
+    </div>
+    </Reveal>
+   ,
+   <Reveal effect="slide-in-left">
     <div className="d-flex justify-content-center">
     <div className="card  mt-5 " style={{ width: "350px" }}>
       <div className="card-header card-header2">
@@ -66,7 +71,7 @@ const Projects = () => {
       </div>
       <div className="card-body">
         <div className="absolute-card2 "></div>
-        <h5 className="text-center mt-2">CVtnnn</h5>
+        <h5 className="text-center mt-2">Bolt Asia</h5>
         <p className="text-center ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
           quos voluptatem est iste sequi alias corrupti incidunt quis
@@ -75,8 +80,10 @@ const Projects = () => {
         </p>
       </div>
     </div>
-  </div>,
-
+  </div>
+   </Reveal>
+    ,
+    <Reveal effect="slide-in-left">
 <div className="d-flex justify-content-center">
 <div className="card  mt-5 " style={{ width: "350px" }}>
   <div className="card-header card-header3">
@@ -91,7 +98,7 @@ const Projects = () => {
   </div>
   <div className="card-body">
     <div className="absolute-card3 "></div>
-    <h5 className="text-center mt-2">CVtnnn</h5>
+    <h5 className="text-center mt-2">Atem World</h5>
     <p className="text-center ">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
       quos voluptatem est iste sequi alias corrupti incidunt quis
@@ -100,7 +107,8 @@ const Projects = () => {
     </p>
   </div>
 </div>
-</div>,
+</div></Reveal>,
+  <Reveal effect="slide-in-left">
     <div className="d-flex justify-content-center">
     <div className="card  mt-5 " style={{ width: "350px" }}>
       <div className="card-header card-header4">
@@ -115,7 +123,7 @@ const Projects = () => {
       </div>
       <div className="card-body">
         <div className="absolute-card4 "></div>
-        <h5 className="text-center mt-2">CVtnnn</h5>
+        <h5 className="text-center mt-2">Plethori South Asia</h5>
         <p className="text-center ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
           quos voluptatem est iste sequi alias corrupti incidunt quis
@@ -124,23 +132,23 @@ const Projects = () => {
         </p>
       </div>
     </div>
-  </div>,
+  </div></Reveal>,
+    <Reveal effect="slide-in-left">
      <div className="d-flex justify-content-center">
      <div className="card  mt-5 " style={{ width: "350px" }}>
        <div className="card-header card-header5 ">
          <div className="headerimg">
-           <img
-             src="https://d25thuhsbcr6yb.cloudfront.net/m/s/22360/22350525/a-0036.png"
-             className=" img-fluid"
-             alt=""
-             style={{left:"15%",top:"15%"}}
-             width="220px"
-           />
+         <img
+              src="https://d25thuhsbcr6yb.cloudfront.net/m/s/27722/27712371/a-0072.png"
+              className=" img-fluid"
+              alt=""
+              width="150px"
+            />
          </div>
        </div>
        <div className="card-body">
          <div className="absolute-card5 "></div>
-         <h5 className="text-center mt-2">CVtnnn</h5>
+         <h5 className="text-center mt-2">Phantasma Chain</h5>
          <p className="text-center ">
            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
            quos voluptatem est iste sequi alias corrupti incidunt quis
@@ -149,18 +157,18 @@ const Projects = () => {
          </p>
        </div>
      </div>
-   </div>,
+   </div></Reveal>,
+     <Reveal effect="slide-in-left">
     <div className="d-flex justify-content-center">
     <div className="card  mt-5 " style={{ width: "350px" }}>
       <div className="card-header card-header6">
         <div className="headerimg">
-          <img
-            src="https://d25thuhsbcr6yb.cloudfront.net/m/s/22360/22350525/a-0036.png"
-            className=" img-fluid"
-            alt=""
-            style={{left:"15%",top:"17%"}}
-            width="220px"
-          />
+        <img
+              src="https://d25thuhsbcr6yb.cloudfront.net/m/s/27722/27712371/a-0072.png"
+              className=" img-fluid"
+              alt=""
+              width="150px"
+            />
         </div>
       </div>
       <div className="card-body">
@@ -174,18 +182,18 @@ const Projects = () => {
         </p>
       </div>
     </div>
-  </div>,
+  </div></Reveal>,
+    <Reveal effect="slide-in-left">
    <div className="d-flex justify-content-center">
    <div className="card  mt-5 " style={{ width: "350px" }}>
      <div className="card-header card-header7">
        <div className="headerimg">
-         <img
-           src="https://d25thuhsbcr6yb.cloudfront.net/m/s/22360/22350525/a-0036.png"
-           className=" img-fluid"
-           alt=""
-           style={{left:"15%",top:"17%"}}
-           width="220px"
-         />
+       <img
+              src="https://d25thuhsbcr6yb.cloudfront.net/m/s/27722/27712371/a-0072.png"
+              className=" img-fluid"
+              alt=""
+              width="150px"
+            />
        </div>
      </div>
      <div className="card-body">
@@ -199,19 +207,19 @@ const Projects = () => {
        </p>
      </div>
    </div>
- </div>
+ </div></Reveal>
  ,
+ <Reveal effect="slide-in-left">
  <div className="d-flex justify-content-center">
  <div className="card  mt-5 " style={{ width: "350px" }}>
    <div className="card-header card-header8">
      <div className="headerimg">
-       <img
-         src="https://d25thuhsbcr6yb.cloudfront.net/m/s/22360/22350525/a-0036.png"
-         className=" img-fluid"
-         alt=""
-         style={{left:"15%",top:"17%"}}
-         width="220px"
-       />
+     <img
+              src="https://d25thuhsbcr6yb.cloudfront.net/m/s/27722/27712371/a-0072.png"
+              className=" img-fluid"
+              alt=""
+              width="150px"
+            />
      </div>
    </div>
    <div className="card-body">
@@ -225,17 +233,18 @@ const Projects = () => {
      </p>
    </div>
  </div>
-</div>, <div className="d-flex justify-content-center">
+</div></Reveal>, 
+  <Reveal effect="slide-in-left">
+<div className="d-flex justify-content-center">
     <div className="card  mt-5 " style={{ width: "350px" }}>
       <div className="card-header card-header9">
         <div className="headerimg">
-          <img
-            src="https://d25thuhsbcr6yb.cloudfront.net/m/s/22360/22350525/a-0036.png"
-            className=" img-fluid"
-            alt=""
-            style={{left:"15%",top:"17%"}}
-            width="220px"
-          />
+        <img
+              src="https://d25thuhsbcr6yb.cloudfront.net/m/s/27722/27712371/a-0072.png"
+              className=" img-fluid"
+              alt=""
+              width="150px"
+            />
         </div>
       </div>
       <div className="card-body">
@@ -250,11 +259,13 @@ const Projects = () => {
       </div>
     </div>
   </div>
+  </Reveal>
   ];
 
   return (
     <div className="container-fluid  text-white mb-5" style={{backgroundColor:"rgba(5, 8, 22)"}}>
       <div className="row mb-5">
+      <Bounce left >
         <div className="col-lg-12 ps-5" style={{ marginTop: "80px" }}>
           <h1
             className=" "
@@ -270,6 +281,7 @@ const Projects = () => {
             give you a complete account.
           </p>
         </div>
+        </Bounce>
         {/* <div className="col-lg-6 imagepro  d-flex justify-content-end ">
           <div className="d-flex justify-content-end align-items-center  pe-5">
           <img

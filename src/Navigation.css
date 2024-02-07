@@ -1,3 +1,23 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+.navBtn {
+    position: relative;
+right: 40px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .bottomLine {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    height: 2px;
+    background-color: aliceblue;
+    transition: width 0.3s ease; /* Add transition for smooth animation */
+  }
+  
+  .navBtn:hover .bottomLine {
+    width: 100%; /* Expand width to 100% on hover */
+  }
+  

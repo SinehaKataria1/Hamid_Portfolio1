@@ -100,4 +100,16 @@
  .img:hover{
   background-color: #fe3e57;
  }
- 
+ .typing-effect span {
+  opacity: 0;
+  animation: typing 1s linear forwards;
+}
+
+@keyframes typing {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
